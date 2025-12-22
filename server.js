@@ -15,3 +15,6 @@ if (!module.parent) {
 }
 
 module.exports = app;
+
+// Welcome to Wilcox API
+// Version: 1.0.0
