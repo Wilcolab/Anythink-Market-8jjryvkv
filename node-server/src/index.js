@@ -5,6 +5,9 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
+// NOTE: Tasks are stored in memory and will be lost when the server restarts.
+// This implementation is not suitable for production use. Consider implementing
+// persistent storage (e.g., database) for production deployments.
 const tasks = [
   "Write a diary entry from the future",
   "Create a time machine from a cardboard box",
